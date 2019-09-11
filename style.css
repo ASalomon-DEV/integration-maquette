@@ -3,6 +3,7 @@
 	padding:55px 0 380px;
 	text-align:left;
 	background-size:cover;
+
 }
 .projects{
   background-color: #FF915E;
@@ -12,4 +13,16 @@
 }
 .patchwork{
   border: 1px dotted black;
+}
+.design{
+  background-color: #F0633E;
+}
+.built{
+  background-color: #8A6676;
+}
+.clients{
+  background-image: url(img/1.png);
+}
+.great{
+  background-color: #D38EA5;
 }
