@@ -75,11 +75,17 @@ body {
 #cards-right{
   margin-left: 16rem;
 }
-
-.text-secondary
+.solo1
+{
+ font-size: 30px;
+ line-height: 40px;
+ color: #565656;
+ margin: 15px 0;
+}
+.solo2
 {
   font-size: 15px;
-  font: inherit;
+  color: #2F3C4F;
 }
 .custom-btn{
   background-color: rgba(255, 255, 255, 0);
