@@ -79,13 +79,14 @@ body {
 {
  font-size: 30px;
  line-height: 40px;
- color: #565656;
+ color: #5b5b5b;
  margin: 15px 0;
+ font-weight: lighter;
 }
 .solo2
 {
   font-size: 15px;
-  color: #2F3C4F;
+  color: #8297a7;
 }
 .custom-btn{
   background-color: rgba(255, 255, 255, 0);
@@ -106,7 +107,7 @@ body {
 }
 
 .purple-bg{
-  text-transform: uppercase;
+text-transform: uppercase;
 padding: 0px 15px;
 border-radius: 4px;
 background: #e1e1e1;
@@ -164,7 +165,7 @@ background: #BB8DC2 !important;
 .nocolor
 {
   padding: 45px 50px;
-  transition: box-shadow .3s;
+  transition: box-shadow 300ms;
 }
 .nocolor:hover
 {
@@ -172,7 +173,7 @@ background: #BB8DC2 !important;
   box-shadow: 0 0 11px rgba(33,33,33,.2);
 
 }
-#gbut
+.btn-success
 {
   width: 150px;
   height: 40px;
@@ -187,6 +188,22 @@ background: #BB8DC2 !important;
   font-weight: 700;
   margin-bottom: 15px;
   border: 0;
+}
+.btn-success
+{
+  transition: background-color 300ms;
+}
+.btn-success span
+{
+  transition: color 300ms;
+}
+.btn-success:hover
+{
+  background-color: #26383F;
+}
+.btn-success:hover span
+{
+  color: #6FAA87;
 }
 
 /*footer*/
