@@ -111,6 +111,13 @@ transition: background 300ms;
 background: #BB8DC2 !important;
 }
 
+.fab {
+    color: #c5c5c5;
+    font-size: 24px;
+    margin-right: 20px;
+    margin-top: 15px;
+  }
+
 /*second-box*/
 .second-box{
   background-image: url(img/voiture.jpg);
