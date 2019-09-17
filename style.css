@@ -10,7 +10,7 @@ body {
   background-attachment: fixed;
 }
 
-.projects {
+#projects {
   background-color: #FFF;
 }
 
@@ -20,7 +20,7 @@ body {
 
 #ipone {
   display: block;
-  margin-top: -550px;
+  margin-top: -750px;
   margin-bottom: 80px;
   width: 100%;
 }
@@ -118,7 +118,7 @@ font-weight: 900;
 
 }
 .purple-bg {
-transition: background 300ms;
+transition: background 500ms;
 }
 .nocolor:hover .purple-bg {
 background: #BB8DC2 !important;
@@ -166,7 +166,7 @@ background: #BB8DC2 !important;
 .nocolor
 {
   padding: 45px 50px;
-  transition: box-shadow 300ms;
+  transition: box-shadow 500ms;
 }
 .nocolor:hover
 {
@@ -191,11 +191,11 @@ background: #BB8DC2 !important;
 }
 .btn-success
 {
-  transition: background-color 300ms;
+  transition: background-color 500ms;
 }
 .btn-success span
 {
-  transition: color 300ms;
+  transition: color 500ms;
 }
 .btn-success:hover
 {
@@ -207,7 +207,7 @@ background: #BB8DC2 !important;
 }
 .fab
 {
-  transition: color 300ms;
+  transition: color 500ms;
 }
 .fab:hover
 {
